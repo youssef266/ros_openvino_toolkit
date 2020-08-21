@@ -37,7 +37,7 @@ find_package(
 
 # Find OpenCV libray if exists
 find_package(
-  OpenCV REQUIRED COMPONENTS
+  OpenCV 3.4 REQUIRED COMPONENTS
   core
   highgui
   imgproc
